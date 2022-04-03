@@ -7,4 +7,4 @@ const schema = new mongoose.Schema({
   articleAuthor: String,
 });
 
-export default mongoose.model('acsArticles', schema);
+module.exports = mongoose.model('acsArticles', schema);
