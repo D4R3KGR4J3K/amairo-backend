@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3010;
 const mongoose = require('mongoose');
-require('dotenv').config();
+//require('dotenv').config(); /* Only Dev */
 const modelArticles = require('./models/modelArticle.js');
 const modelService = require('./models/modelService.js');
 const modelOpinion = require('./models/modelOpinion.js');
