@@ -61,7 +61,7 @@ app.get('/article/', (req, res) => {
       date: query.articleDate,
       author: query.articleAuthor,
     }]);
-  })
+  });
 
 });
 
@@ -74,7 +74,7 @@ app.get('/services/', (req, res) => {
       });
       res.send({
         totalPages: modelService.find().count(),
-      })
+      });
       return;
     }).catch(err => res.send({message: err}));
   }
