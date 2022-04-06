@@ -8,4 +8,4 @@ const schema = new mongoose.Schema({
   serviceTime: Number,
 });
 
-module.exports = mongoose.model('acsArticles', schema);
+module.exports = mongoose.model('acsServices', schema);
